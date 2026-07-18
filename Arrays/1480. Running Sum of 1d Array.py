@@ -1,5 +1,7 @@
 class Solution(object):
     def runningSum(self, nums):
+
+# Solution 1
         sum = 0
         result = []
         for i in nums:
@@ -7,8 +9,10 @@ class Solution(object):
             result.append(sum)
 
         return result
+   
 
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
+"""
+:type nums: List[int]
+:rtype: List[int]
+
+"""
